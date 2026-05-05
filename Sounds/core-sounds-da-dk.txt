@@ -4,8 +4,17 @@
 ;
 activated: Aktiveret.
 added: Tilføjet.
+agent-alreadyon: Den medarbejder er allerede logget ind. Indtast venligst dit medarbejdernummer efterfulgt af firkant-tasten.
+agent-incorrect: Forkert login. Indtast venligst dit medarbejdernummer efterfulgt af firkant-tasten.
+agent-loggedoff: Medarbejder logget ud.
+agent-loginok: Medarbejder logget ind.
+agent-newlocation: Indtast venligst et nyt lokalnummer efterfulgt af firkant.
+agent-pass: Indtast venligst din adgangskode efterfulgt af firkant-tasten.
+agent-user: Medarbejder-login. Indtast venligst dit medarbejdernummer efterfulgt af firkant-tasten.
 all-circuits-busy-now: Alle linjer er optaget i øjeblikket.
 astcc-followed-by-the-pound-key: Efterfulgt af firkant-tasten.
+auth-incorrect: Forkert adgangskode. Indtast venligst din adgangskode efterfulgt af firkant-tasten.
+auth-thankyou: Tak.
 call-forwarding: Viderestilling af opkald.
 call-fwd-no-ans: Viderestilling ved manglende svar.
 call-fwd-on-busy: Viderestilling ved optaget.
@@ -14,20 +23,37 @@ call-waiting: Banke på.
 cancelled: Annulleret.
 cannot-complete-as-dialed: Dit opkald kan ikke gennemføres som indtastet.
 check-number-dial-again: Kontrollér venligst nummeret og ring igen.
+conf-adminmenu: Tryk 1 for at slå din mikrofon til eller fra, 2 for at låse eller låse konferencen op, 3 for at fjerne den seneste deltager, 4 eller 6 for at sænke eller hæve konferencens lydstyrke, 7 eller 9 for at sænke eller hæve din egen lydstyrke, eller 8 for at afslutte.
+conf-enteringno: Du er ved at gå ind i konference nummer
+conf-errormenu: Ugyldigt valg.
 conf-extended: Konferencen er blevet forlænget.
 conf-full: Konferencen er fuld.
+conf-getchannel: Indtast venligst kanalnummeret efterfulgt af firkant-tasten.
+conf-getconfno: Indtast venligst dit konferencenummer efterfulgt af firkant-tasten.
+conf-getpin: Indtast venligst konferencens pinkode.
 conf-hasjoin: er nu med i konferencen.
 conf-hasleft: har forladt konferencen.
+conf-invalid: Det er ikke et gyldigt konferencenummer. Prøv venligst igen.
+conf-invalidpin: Den pinkode er ugyldig for denne konference.
+conf-kicked: Du er blevet fjernet fra denne konference.
 conf-leaderhasleft: Lederen har forladt konferencen.
+conf-locked: Denne konference er låst.
+conf-lockednow: Konferencen er nu låst.
+conf-muted: Din mikrofon er nu slået fra.
+conf-noempty: Der findes i øjeblikket ingen tomme konferencer.
 conf-nonextended: Konferencen kan ikke forlænges.
 conf-now-muted: Konferencen er nu sat på lydløs.
 conf-now-recording: Konferencen optages nu.
 conf-now-unmuted: Konferencen er ikke længere på lydløs.
 conf-onlyone: Der er i øjeblikket én anden deltager i konferencen.
+conf-onlyperson: Du er i øjeblikket den eneste deltager i denne konference.
 conf-otherinparty: andre deltagere i konferencen.
 conf-placeintoconf: Du bliver nu sat ind i konferencen.
 conf-roll-callcomplete: Afspilning af deltagerlisten er afsluttet.
 conf-thereare: Der er i øjeblikket
+conf-unlockednow: Konferencen er nu låst op.
+conf-unmuted: Din mikrofon er nu slået til.
+conf-usermenu: Tryk 1 for at slå din mikrofon til eller fra, 4 eller 6 for at sænke eller hæve konferencens lydstyrke, 7 eller 9 for at sænke eller hæve din egen lydstyrke, eller 8 for at afslutte.
 conf-usermenu-162: Tryk 1 for at slå din mikrofon til eller fra, 4 eller 6 for at sænke eller hæve konferencens lydstyrke, 5 for at forlænge konferencen, 7 eller 9 for at sænke eller hæve din egen lydstyrke, eller 8 for at forlade denne menu og vende tilbage til konferencen.
 conf-userswilljoin: brugere vil tilslutte sig konferencen.
 conf-userwilljoin: bruger vil tilslutte sig konferencen.
@@ -78,40 +104,166 @@ confbridge-there-are: Der er i øjeblikket...
 confbridge-unlocked: Konferencen er nu låst op.
 confbridge-unmuted: Din mikrofon er ikke længere slået fra.
 de-activated: Deaktiveret.
+digits/0: nul
+digits/1: et
+digits/1-and: et og
+digits/10: ti
+digits/11: elleve
+digits/12: tolv
+digits/13: tretten
+digits/14: fjorten
+digits/15: femten
+digits/16: seksten
+digits/17: sytten
+digits/18: atten
+digits/19: nitten
+digits/2: to
+digits/2-and: to og
+digits/20: tyve
+digits/3: tre
+digits/3-and: tre og
+digits/30: tredive
+digits/4: fire
+digits/4-and: fire og
+digits/40: fyrre
+digits/5: fem
+digits/5-and: fem og
+digits/50: halvtreds
+digits/6: seks
+digits/6-and: seks og
+digits/60: tres
+digits/7: syv
+digits/7-and: syv og
+digits/70: halvfjerds
+digits/8: otte
+digits/8-and: otte og
+digits/80: firs
+digits/9: ni
+digits/9-and: ni og
+digits/90: halvfems
 digits/a-m: AM.
+digits/at: klokken
 digits/billion: milliard.
+digits/day-0: søndag
+digits/day-1: mandag
+digits/day-2: tirsdag
+digits/day-3: onsdag
+digits/day-4: torsdag
+digits/day-5: fredag
+digits/day-6: lørdag
+digits/dollars: kroner
+digits/eightieth: firsindstyvende
+digits/h-1: første
+digits/h-10: tiende
+digits/h-11: ellevte
+digits/h-12: tolvte
+digits/h-13: trettende
+digits/h-14: fjortende
+digits/h-15: femtende
+digits/h-16: sekstende
+digits/h-17: syttende
+digits/h-18: attende
+digits/h-19: nittende
+digits/h-2: anden
+digits/h-20: tyvende
+digits/h-3: tredje
+digits/h-30: tredivte
+digits/h-4: fjerde
 digits/h-40: fyrretyvende.
+digits/h-5: femte
 digits/h-50: halvtredsindstyvende.
+digits/h-6: sjette
 digits/h-60: tresindstyvende.
+digits/h-7: syvende
 digits/h-70: halvfjerdsindstyvende.
+digits/h-8: ottende
 digits/h-80: firsindstyvende.
+digits/h-9: niende
 digits/h-90: halvfemsindstyvende.
 digits/h-billion: milliardte.
 digits/h-hundred: hundrede.
 digits/h-million: millionte.
 digits/h-thousand: tusinde.
+digits/hours: timer
+digits/hundred: hundrede
+digits/million: million
+digits/minus: minus
+digits/minutes: minutter
+digits/mon-0: januar
+digits/mon-1: februar
+digits/mon-10: november
+digits/mon-11: december
+digits/mon-2: marts
+digits/mon-3: april
+digits/mon-4: maj
+digits/mon-5: juni
+digits/mon-6: juli
+digits/mon-7: august
+digits/mon-8: september
+digits/mon-9: oktober
+digits/ninetieth: halvfemsindstyvende
+digits/oclock: præcis
+digits/oh: nul
 digits/p-m: PM.
+digits/pound: firkant
+digits/seconds: sekunder
+digits/seventieth: halvfjerdsindstyvende
+digits/sixtieth: tresindstyvende
+digits/star: stjerne
+digits/thousand: tusind
+digits/today: i dag
+digits/tomorrow: i morgen
+digits/yesterday: i går
 disabled: Deaktiveret.
 do-not-disturb: Forstyr ikke.
 enabled: Aktiveret.
 enter-num-blacklist: Indtast venligst det nummer, der skal blokeres.
 entr-num-rmv-blklist: Indtast venligst det nummer, der skal fjernes fra blokeringslisten.
+extension: lokalnummer
+followme/call-from: indkommende opkald fra
+followme/no-recording: du har et indkommende opkald
+followme/options: tryk 1 for at acceptere dette opkald, eller 2 for at afvise det
+followme/pls-hold-while-try: vent venligst, mens jeg forsøger at finde den person, du ringer til
+followme/sorry: Beklager, men jeg kunne ikke finde den person, du ringer til.
+followme/status: den person, du ringer til, er ikke ved sit skrivebord; jeg vil forsøge at finde vedkommende
 invalid: Beklager, det er ikke et gyldigt lokalnummer. Prøv venligst igen.
 minutes: minutter.
 number: Nummer.
 number-not-answering: Nummeret svarer ikke.
 one-moment-please: Et øjeblik, tak.
+pbx-invalid: Beklager, det er ikke et gyldigt lokalnummer. Prøv venligst igen.
+pbx-invalidpark: Beklager, der er ingen opkald parkeret på det lokalnummer. Prøv venligst igen.
 pbx-parkingfailed: Parkering af opkald mislykkedes.
+pbx-transfer: Viderestilling.
 please-try-again: Prøv venligst igen.
 pls-hold-while-try: Vent venligst, mens vi forbinder dig.
 pls-try-call-later: Prøv venligst opkaldet igen senere.
 privacy-incorrect: Beklager, det nummer er ikke gyldigt.
+queue-callswaiting: venter på at tale med en medarbejder
+queue-holdtime: Den forventede ventetid er i øjeblikket
+queue-less-than: mindre end
 queue-minute: minut.
+queue-minutes: minutter
 queue-periodic-announce: Alle vores medarbejdere er i øjeblikket optaget. Bliv venligst på linjen, og dit opkald vil blive besvaret af den næste ledige medarbejder.
 queue-quantity1: I øjeblikket er der mere end...
 queue-quantity2: ...opkaldere, der venter på at tale med en medarbejder.
+queue-reporthold: Ventetid
+queue-seconds: sekunder
+queue-thankyou: Tak for din tålmodighed.
+queue-thereare: Du er i øjeblikket opkalder nummer
+queue-youarenext: Dit opkald er nu først i køen og vil blive besvaret af den næste ledige medarbejder.
 removed: Fjernet.
 seconds: sekunder.
+silence/1: (1 sekunders stilhed)
+silence/10: (10 sekunders stilhed)
+silence/2: (2 sekunders stilhed)
+silence/3: (3 sekunders stilhed)
+silence/4: (4 sekunders stilhed)
+silence/5: (5 sekunders stilhed)
+silence/6: (6 sekunders stilhed)
+silence/7: (7 sekunders stilhed)
+silence/8: (8 sekunders stilhed)
+silence/9: (9 sekunders stilhed)
 simul-call-limit-reached: Grænsen for samtidige opkald er nået.
 ss-noservice: Det nummer, du har ringet til, er ikke i drift. Kontrollér nummeret og prøv igen.
 telephone-number: Telefonnummer.
@@ -122,10 +274,105 @@ to-rerecord-it: For at optage den igen.
 transfer: Vent venligst, mens jeg forsøger at nå det lokalnummer.
 tt-allbusy: Alle medarbejdere i husstanden hjælper i øjeblikket andre telefonsælgere. Vent venligst, og dit opkald vil blive besvaret i den rækkefølge, det er modtaget.
 tt-weasels: Væsler har spist vores telefonsystem.
+vm-Cust1: mappe 5
+vm-Cust2: mappe 6
+vm-Cust3: mappe 7
+vm-Cust4: mappe 8
+vm-Cust5: mappe 9
+vm-Family: familie
+vm-Friends: venner
+vm-INBOX: ny
+vm-INBOXs: nye
+vm-Old: gammel
+vm-Work: arbejde
+vm-advopts: tryk 3 for avancerede indstillinger
+vm-and: og
+vm-calldiffnum: tryk 2 for at indtaste et andet nummer
+vm-changeto: Skift til hvilken mappe?
+vm-delete: Tryk 7 for at slette denne besked.
+vm-deleted: Besked slettet.
+vm-dialout: vent venligst, mens jeg forbinder dit opkald
 vm-enter-num-to-call: indtast venligst det nummer, du ønsker at ringe til.
+vm-extension: lokalnummer
+vm-first: første
+vm-for: til
+vm-forward: Tryk 1 for at indtaste et lokalnummer, tryk 2 for at bruge mappen.
+vm-forwardoptions: tryk 1 for at indlede med en besked, eller 2 for at videresende beskeden uden indledning
+vm-from: fra
+vm-from-extension: besked fra lokalnummer
+vm-from-phonenumber: besked fra telefonnummer
 vm-goodbye: Farvel.
+vm-helpexit: Tryk stjerne for hjælp eller firkant for at afslutte.
+vm-incorrect: Forkert login.
+vm-incorrect-mailbox: Forkert login. Postkasse?
+vm-instructions: For at se dine beskeder, tryk 1 nu. Du kan forlade telefonsvareren når som helst ved at trykke firkant-tasten.
 vm-intro: Indtal venligst din besked efter tonen. Når du er færdig, læg på eller tryk på firkant-tasten.
+vm-isonphone: taler i telefon
+vm-isunavail: er ikke tilgængelig
+vm-last: sidste
+vm-leavemsg: Tryk 5 for at indtale en besked.
+vm-login: Telefonsvarer. Postkasse?
+vm-mailbox-full: Beklager, men brugerens postkasse kan ikke modtage flere beskeder.
+vm-message: besked
+vm-messages: beskeder
+vm-minutes: minutter
+vm-mismatch: De adgangskoder, du indtastede, stemte ikke overens. Prøv venligst igen.
+vm-msginstruct: For at høre den næste besked tryk 6, for at gentage denne besked tryk 5, for at høre den forrige besked tryk 4, for at slette eller fortryde sletning tryk nul, for at forlade telefonsvareren tryk firkant.
+vm-msgsaved: Din besked er blevet gemt.
+vm-newpassword: Indtast venligst din nye adgangskode efterfulgt af firkant-tasten.
+vm-newuser: Velkommen til telefonsvareren. Først vil jeg guide dig gennem en kort opsætning.
+vm-next: Tryk 6 for at afspille den næste besked.
+vm-no: nej
+vm-nobodyavail: Der er ingen tilgængelig til at besvare dit opkald i øjeblikket.
+vm-nobox: du kan ikke besvare denne besked, fordi afsenderen ikke har en postkasse
+vm-nomore: Ingen flere beskeder.
+vm-nonumber: Beklager, jeg ved ikke, hvem der har sendt denne besked.
+vm-num-i-have: det nummer, jeg har, er
+vm-onefor: Tryk 1 for
+vm-options: Tryk 1 for at indtale din utilgængelig-besked, tryk 2 for at indtale din optaget-besked, tryk 3 for at indtale dit navn, tryk 4 for at indtale din midlertidige hilsen, tryk 5 for at ændre din adgangskode, tryk stjerne for at vende tilbage til hovedmenuen.
+vm-opts: Tryk 2 for at skifte mappe, tryk 3 for avancerede indstillinger, tryk nul for postkasseindstillinger.
+vm-passchanged: Din adgangskode er blevet ændret.
+vm-password: adgangskode
+vm-press: tryk
+vm-prev: Tryk 4 for den forrige besked.
+vm-reachoper: tryk 0 for at få fat i en operatør
+vm-rec-busy: Efter tonen, indtal din optaget-besked, og tryk derefter på firkant-tasten.
+vm-rec-name: Efter tonen, sig dit navn, og tryk derefter på firkant-tasten.
+vm-rec-temp: Efter tonen, indtal din midlertidige besked, og tryk derefter på firkant-tasten.
+vm-rec-unv: Efter tonen, indtal din utilgængelig-besked, og tryk derefter på firkant-tasten.
 vm-received: modtaget.
+vm-reenterpassword: Indtast venligst din adgangskode igen efterfulgt af firkant-tasten.
+vm-repeat: Tryk 5 for at gentage den aktuelle besked.
+vm-review: tryk 1 for at acceptere denne optagelse, tryk 2 for at lytte til den, tryk 3 for at indtale din besked igen
+vm-saved: gemt
+vm-savedto: gemt i
+vm-savefolder: I hvilken mappe skal jeg gemme beskeden?
+vm-savemessage: eller 9 for at gemme denne besked
+vm-saveoper: tryk 1 for at acceptere denne optagelse, ellers vent venligst
+vm-sorry: Beklager, jeg forstod ikke dit svar.
+vm-star-cancel: tryk stjerne for at annullere
+vm-starmain: tryk stjerne for at vende tilbage til hovedmenuen
+vm-tempgreeting: tryk 1 for at indtale din midlertidige hilsen
+vm-tempgreeting2: tryk 1 for at indtale din midlertidige hilsen, eller tryk 2 for at slette din midlertidige hilsen
+vm-tempremoved: Din midlertidige hilsen er blevet fjernet.
+vm-then-pound: tryk derefter firkant
+vm-theperson: Personen på lokalnummer
+vm-tocallback: tryk 2 for at ringe til den person, der sendte denne besked
+vm-tocallnum: tryk 1 for at ringe til dette nummer
+vm-tocancel: eller firkant for at annullere
+vm-tocancelmsg: tryk stjerne for at annullere denne besked
+vm-toenternumber: tryk 1 for at indtaste et nummer
+vm-toforward: Tryk 8 for at videresende beskeden til en anden bruger.
+vm-tohearenv: tryk 3 for at høre beskedens kuvert
+vm-tomakecall: tryk 4 for at foretage et udgående opkald
+vm-tooshort: din besked er for kort
+vm-toreply: tryk 1 for at sende et svar
+vm-torerecord: tryk 3 for at indtale din besked igen
+vm-undelete: Tryk 7 for at fortryde sletning af denne besked.
+vm-undeleted: Sletning fortrudt.
+vm-unknown-caller: fra en ukendt opkalder
+vm-whichbox: For at indtale en besked, indtast venligst et postkassenummer.
+vm-youhave: du har
 with: Med.
 you-entered: Du indtastede.
 your: Dit.
