@@ -1,0 +1,131 @@
+; Core Asterisk Sounds in Danish (Dansk)
+; Generated using Piper TTS (da_DK-talesyntese-medium)
+; Sample rate: 22050 Hz, mono, 16-bit PCM WAV
+;
+activated: Aktiveret.
+added: Tilføjet.
+all-circuits-busy-now: Alle linjer er optaget i øjeblikket.
+astcc-followed-by-the-pound-key: Efterfulgt af firkant-tasten.
+call-forwarding: Viderestilling af opkald.
+call-fwd-no-ans: Viderestilling ved manglende svar.
+call-fwd-on-busy: Viderestilling ved optaget.
+call-fwd-unconditional: Ubetinget viderestilling af alle opkald.
+call-waiting: Banke på.
+cancelled: Annulleret.
+cannot-complete-as-dialed: Dit opkald kan ikke gennemføres som indtastet.
+check-number-dial-again: Kontrollér venligst nummeret og ring igen.
+conf-extended: Konferencen er blevet forlænget.
+conf-full: Konferencen er fuld.
+conf-hasjoin: er nu med i konferencen.
+conf-hasleft: har forladt konferencen.
+conf-leaderhasleft: Lederen har forladt konferencen.
+conf-nonextended: Konferencen kan ikke forlænges.
+conf-now-muted: Konferencen er nu sat på lydløs.
+conf-now-recording: Konferencen optages nu.
+conf-now-unmuted: Konferencen er ikke længere på lydløs.
+conf-onlyone: Der er i øjeblikket én anden deltager i konferencen.
+conf-otherinparty: andre deltagere i konferencen.
+conf-placeintoconf: Du bliver nu sat ind i konferencen.
+conf-roll-callcomplete: Afspilning af deltagerlisten er afsluttet.
+conf-thereare: Der er i øjeblikket
+conf-usermenu-162: Tryk 1 for at slå din mikrofon til eller fra, 4 eller 6 for at sænke eller hæve konferencens lydstyrke, 5 for at forlænge konferencen, 7 eller 9 for at sænke eller hæve din egen lydstyrke, eller 8 for at forlade denne menu og vende tilbage til konferencen.
+conf-userswilljoin: brugere vil tilslutte sig konferencen.
+conf-userwilljoin: bruger vil tilslutte sig konferencen.
+conf-waitforleader: Konferencen begynder, når lederen ankommer.
+confbridge-begin-glorious-a: konferencen begynder, når vor ærede leder ankommer.
+confbridge-begin-glorious-b: konferencen begynder, når vor ærede leder ankommer.
+confbridge-begin-glorious-c: konferencen begynder, når vor ærede leder ankommer.
+confbridge-begin-leader: konferencen begynder, når lederen ankommer.
+confbridge-conf-begin: konferencen begynder nu.
+confbridge-conf-end: konferencen er afsluttet.
+confbridge-dec-list-vol-in: For at sænke lydstyrken fra de andre deltagere...
+confbridge-dec-list-vol-out: ...for at sænke lydstyrken fra de andre deltagere.
+confbridge-dec-talk-vol-in: For at sænke din egen taler-lydstyrke til de andre deltagere...
+confbridge-dec-talk-vol-out: ...for at sænke din egen taler-lydstyrke til de andre deltagere.
+confbridge-has-joined: ...er kommet med i konferencen.
+confbridge-has-left: ...har forladt konferencen.
+confbridge-inc-list-vol-in: For at hæve lydstyrken fra de andre deltagere...
+confbridge-inc-list-vol-out: ...for at hæve lydstyrken fra de andre deltagere.
+confbridge-inc-talk-vol-in: For at hæve din egen taler-lydstyrke til de andre deltagere...
+confbridge-inc-talk-vol-out: ...for at hæve din egen taler-lydstyrke til de andre deltagere.
+confbridge-invalid: Du har valgt en ugyldig mulighed.
+confbridge-leave-in: For at forlade konferencen...
+confbridge-leave-out: ...for at forlade konferencen.
+confbridge-lock-extended: ...for at låse eller låse konferencen op. Når konferencen er låst, kan kun konferenceadministratorer deltage.
+confbridge-lock-in: For at låse eller låse konferencen op...
+confbridge-lock-no-join: Konferencen er i øjeblikket låst og kan ikke tilsluttes.
+confbridge-lock-out: ...for at låse eller låse konferencen op.
+confbridge-locked: Konferencen er nu låst.
+confbridge-menu-exit-in: For at forlade menuen...
+confbridge-menu-exit-out: ...for at forlade menuen.
+confbridge-mute-extended: ...for at slå din mikrofon til eller fra. Når din mikrofon er slået fra, kan du ikke sende lyd til de andre deltagere, men du kan stadig høre lyd fra de andre deltagere.
+confbridge-mute-in: For at slå din mikrofon til eller fra...
+confbridge-mute-out: ...for at slå din mikrofon til eller fra.
+confbridge-muted: Din mikrofon er nu slået fra.
+confbridge-only-one: Der er i øjeblikket én anden deltager i konferencen.
+confbridge-only-participant: Du er i øjeblikket den eneste deltager i konferencen.
+confbridge-participants: ...deltagere i konferencen.
+confbridge-pin: Indtast venligst din personlige identifikationskode efterfulgt af firkant-tasten.
+confbridge-pin-bad: Du har indtastet for mange ugyldige personlige identifikationskoder.
+confbridge-remove-last-in: For at fjerne den deltager, der senest tilsluttede sig konferencen...
+confbridge-remove-last-out: ...for at fjerne den deltager, der senest tilsluttede sig konferencen.
+confbridge-removed: Du er blevet fjernet fra konferencen.
+confbridge-rest-list-vol-in: For at nulstille konferencens lydstyrke til standardniveauet...
+confbridge-rest-list-vol-out: ...for at nulstille konferencens lydstyrke til standardniveauet.
+confbridge-rest-talk-vol-in: For at nulstille din egen taler-lydstyrke til standardniveauet...
+confbridge-rest-talk-vol-out: ...for at nulstille din egen taler-lydstyrke til standardniveauet.
+confbridge-there-are: Der er i øjeblikket...
+confbridge-unlocked: Konferencen er nu låst op.
+confbridge-unmuted: Din mikrofon er ikke længere slået fra.
+de-activated: Deaktiveret.
+digits/a-m: AM.
+digits/billion: milliard.
+digits/h-40: fyrretyvende.
+digits/h-50: halvtredsindstyvende.
+digits/h-60: tresindstyvende.
+digits/h-70: halvfjerdsindstyvende.
+digits/h-80: firsindstyvende.
+digits/h-90: halvfemsindstyvende.
+digits/h-billion: milliardte.
+digits/h-hundred: hundrede.
+digits/h-million: millionte.
+digits/h-thousand: tusinde.
+digits/p-m: PM.
+disabled: Deaktiveret.
+do-not-disturb: Forstyr ikke.
+enabled: Aktiveret.
+enter-num-blacklist: Indtast venligst det nummer, der skal blokeres.
+entr-num-rmv-blklist: Indtast venligst det nummer, der skal fjernes fra blokeringslisten.
+invalid: Beklager, det er ikke et gyldigt lokalnummer. Prøv venligst igen.
+minutes: minutter.
+number: Nummer.
+number-not-answering: Nummeret svarer ikke.
+one-moment-please: Et øjeblik, tak.
+pbx-parkingfailed: Parkering af opkald mislykkedes.
+please-try-again: Prøv venligst igen.
+pls-hold-while-try: Vent venligst, mens vi forbinder dig.
+pls-try-call-later: Prøv venligst opkaldet igen senere.
+privacy-incorrect: Beklager, det nummer er ikke gyldigt.
+queue-minute: minut.
+queue-periodic-announce: Alle vores medarbejdere er i øjeblikket optaget. Bliv venligst på linjen, og dit opkald vil blive besvaret af den næste ledige medarbejder.
+queue-quantity1: I øjeblikket er der mere end...
+queue-quantity2: ...opkaldere, der venter på at tale med en medarbejder.
+removed: Fjernet.
+seconds: sekunder.
+simul-call-limit-reached: Grænsen for samtidige opkald er nået.
+ss-noservice: Det nummer, du har ringet til, er ikke i drift. Kontrollér nummeret og prøv igen.
+telephone-number: Telefonnummer.
+to-call-this-number: For at ringe til dette nummer.
+to-extension: Til lokalnummer.
+to-listen-to-it: For at lytte til den.
+to-rerecord-it: For at optage den igen.
+transfer: Vent venligst, mens jeg forsøger at nå det lokalnummer.
+tt-allbusy: Alle medarbejdere i husstanden hjælper i øjeblikket andre telefonsælgere. Vent venligst, og dit opkald vil blive besvaret i den rækkefølge, det er modtaget.
+tt-weasels: Væsler har spist vores telefonsystem.
+vm-enter-num-to-call: indtast venligst det nummer, du ønsker at ringe til.
+vm-goodbye: Farvel.
+vm-intro: Indtal venligst din besked efter tonen. Når du er færdig, læg på eller tryk på firkant-tasten.
+vm-received: modtaget.
+with: Med.
+you-entered: Du indtastede.
+your: Dit.
